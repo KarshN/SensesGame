@@ -438,7 +438,7 @@ function draw(){
             text("No sound or sight. Good luck!",180,600)
         }else if(phase==4){
             textSize(25)
-            text("You're done! Now, copy the text appears once the screen is clicked.",60,600)
+            text("You're done! Now, copy the text appearing once the screen is clicked.",60,600)
             var newText=""
             for(let i=0;i<4;i++){
                 if(str(bestScores[i]).length==1){
